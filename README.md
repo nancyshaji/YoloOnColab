@@ -1,5 +1,5 @@
 # YoloOnColab
-Use the following code to train any custom datasset on YOLO. This can be even used by any beginner
+Use the following code to train any custom data set on YOLO. This can be even used by any beginner
 
 Code for training: 
 https://colab.research.google.com/drive/1s9vi9hyoKxQmEetZP58vwrRYXZBmC0ql 
@@ -37,3 +37,6 @@ https://medium.com/@manivannan_data/how-to-train-yolov3-to-detect-custom-objects
 https://www.tejashwi.io/training-yolov3-using-custom-dataset-on-google-colab/ : code from this link. 
 
 https://timebutt.github.io/static/understanding-yolov2-training-output/
+
+
+Any doubts? Do feel free to ask under the Issues tab.
