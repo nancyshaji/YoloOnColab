@@ -10,9 +10,9 @@ Steps for training custom dataset:
 2. Annotate dataset in yolo format. There are some already existing apps like HyperLabel for windows or many github codes for linux(Bbox,AlexaayAB etc)
 3. Create obj.data and obj.names file: obj.names would just have the names of classes of objects that are to be trained.
 4. Create train.txt. It should have all the names of the images file present. Include " data/img/" before each file, as that would be the original data positions while training.
-5.Zip all of them together. Ie train.txt,obj.data,obj.names and img. Img contains images and annotations. >>yolo-dataset.zip
-6.Add a folder in your drive as ml. Upload the zip file in it.
-7.Run the colab code. Make change in the part where the configuartion file is being updated. These values depend on the number of classes that you are going to train for.
+5. Zip all of them together. Ie train.txt,obj.data,obj.names and img. Img contains images and annotations. >>yolo-dataset.zip
+6. Add a folder in your drive as ml. Upload the zip file in it.
+7. Run the colab code. Make change in the part where the configuartion file is being updated. These values depend on the number of classes that you are going to train for.
 8. Keep saving the weights to the drive every 100 epoch.
 
 -example for obj.data:"
@@ -29,7 +29,8 @@ Steps for training custom dataset:
   
   
   
-  "Change only the first line in this.
+  "Change only the first line in this to change number of classes. 
+  The class would be specified in annotation file, hence the train.txt file would contain the full images of all the classes.
 Other links :
 
 https://medium.com/@manivannan_data/how-to-train-yolov3-to-detect-custom-objects-ccbcafeb13d2  Check this link for more datails. 
@@ -38,5 +39,3 @@ https://www.tejashwi.io/training-yolov3-using-custom-dataset-on-google-colab/ : 
 
 https://timebutt.github.io/static/understanding-yolov2-training-output/
 
-
-Any doubts? Do feel free to ask under the Issues tab.
